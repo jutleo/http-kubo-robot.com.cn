@@ -1,0 +1,65 @@
+* {margin: 0;padding: 0;}
+body {
+	font-family: "Microsoft YaHei";
+	-webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;
+	font-size: 14px;
+	max-width: 1366px;
+	min-width: 1200px;
+}
+ul {list-style: none;}
+img {padding: 0; margin: 0;}
+
+/**********leo-grid-12**********/
+.leo-container{width: 100%;min-width: 1024px;}
+.leo-row {margin-left: 15px;margin-right: 15px;}
+.leo-1,.leo-2,.leo-3,.leo-4,.leo-5,.leo-6,.leo-7,.leo-8,.leo-9,.leo-10,.leo-11,.leo-12{position:relative;float:left;}
+.leo-1 {width: 8.333333%;}
+.leo-2 {width: 16.666667%;}
+.leo-3 {width: 25%;}
+.leo-4 {width: 33.333333%;}
+.leo-5 { width: 41.666667%;}
+.leo-6 {width: 50%;}
+.leo-7 {width: 58.333333%;}
+.leo-8 {width: 66.666667%;}
+.leo-9 {width: 75%;}
+.leo-10 {width: 83.333333%;}
+.leo-11 {width: 91.666667%;}
+.leo-12 {width: 100%;}
+.cl {clear: both;}
+.db {display: inline-block;}
+
+
+.bg1 {background-color: #f5f7fa; color: #5d626f;}
+.bg2 {background-color: #464f82; color: #fff;}
+.bg3 {background-color: #e9d6b5; color: #5d626f;}
+.bg4 {background-color: #f4f5f8; color: #323757;}
+
+.bt1 {border-top: 1px solid #f7f8f9;}
+.bb1 {border-bottom: 1px solid #f7f8f9;}
+.tc {text-align: center;}
+
+.m30 {margin: 30px;}
+.p2 {padding: 2px;}
+.p30 {padding: 30px;}
+.pb30 {padding-bottom: 30px;}
+.pb20 {padding-bottom: 20px;}
+.pt30 {padding-top: 30px;}
+.pt10 {padding-top: 10px;}
+.f12 {font-size: 12px;}
+.f14 {font-size: 14px;}
+.f16 {font-size: 16px;}
+.f20 {font-size: 20px;}
+
+.leo-big-font {font-family: "tahoma,Arial,simhei,Microsoft YaHei,SourceHanSans,Verdana,Geneva,sans-serif";font-size: 24px;}
+.leo-menu, .leo-menu li {float: left;}
+.leo-menu li {display: inline-block; padding: 20px 30px;font-size: 16px;cursor: pointer;font-weight: bold;}
+.leo-menu li:hover {background-color: #3399ff; color: #fff;}
+
+.leo-info1 {
+	border: 1px dotted #f7f8f9;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px 40px;
+    font-size: 16px;
+}
+
